@@ -180,6 +180,7 @@ def user_stats(df):
 def main():
     while True:
         user=input('enter your name: \n').capitalize()
+        print('Hello! {0} Let\'s explore some US bikeshare data!'.format(user))
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
