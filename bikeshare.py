@@ -179,6 +179,7 @@ def user_stats(df):
 
 def main():
     while True:
+        user=input('enter your name: \n').capitalize()
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
