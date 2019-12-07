@@ -18,3 +18,5 @@ washington.csv
 ### Credits
 https://github.com/udacity/pdsnd_github
 
+### License
+public domain dedication ,Feel free to do whatever you want with it.
